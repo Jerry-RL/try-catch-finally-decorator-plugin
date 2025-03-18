@@ -1,0 +1,25 @@
+{
+  "name": "babel-plugin-try-catch-finally-decorator",
+  "version": "1.0.0",
+  "description": "A Babel plugin that adds try-catch-finally blocks to functions based on comments.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["babel", "plugin", "try-catch", "decorator"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/babel-plugin-try-catch-finally-decorator.git"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "jest": "^29.0.0",
+    "babel-jest": "^29.0.0"
+  }
+}
